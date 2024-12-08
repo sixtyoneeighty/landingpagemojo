@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import VideoBackground from './components/VideoBackground';
-import Button from './components/Button';
+import Link from './components/Link';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
           <p className="text-lg sm:text-xl mb-12 text-amber-50/90 max-w-2xl mx-auto">
             Providing a fast and detailed analysis of your medical images
           </p>
-          <Button>
+          <Link href="https://mainmojoapp.vercel.app" target="_blank" rel="noopener noreferrer">
             Learn More <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          </Link>
         </div>
       </div>
     </div>
